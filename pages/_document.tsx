@@ -1,13 +1,13 @@
 import React from 'react';
 import Document, {Head, Main, NextScript} from 'next/document';
 import {ServerStyleSheets} from '@material-ui/core/styles';
-import theme from '../src/environments/theme';
+import theme from '../src/theme';
 import '../src/styles/app.sass'
 
 export default class MyDocument extends Document {
   render() {
     return (
-        <html lang="en">
+        <html lang="ja">
         <Head>
           <meta charSet="utf-8"/>
           <meta

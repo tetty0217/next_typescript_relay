@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "relay": "relay-compiler --src ./ --schema ./schema.graphql --language typescript --exclude '**/.next/**' '**/node_modules/**' '**/test/**' '**/__generated__/**' '**/__out__/**'",
+    "relay": "relay-compiler --src ./ --schema ./schema.graphql --language typescript --exclude '**/.next/**' '**/node_modules/**' '**/test/**' '**/__generated__/**'",
     "codegen": "graphql-codegen --config codegen.yml",
     "get-schema": "get-graphql-schema http://localhost:8080/graphql > schema.graphql",
     "test": "echo \"Error: no test specified\" && exit 1"
